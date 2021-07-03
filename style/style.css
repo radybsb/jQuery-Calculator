@@ -33,12 +33,12 @@ h1{
   border-color: #EDEDED;
   border-radius: 5px;
   width: 280px;
-  height: 350px;
+  height: 367.5px;
   margin: auto;
 }
 
 .screen {
-  height: 50px;
+  height: 70px;
   background-color: #1e332a;
   border-style: solid;
   border-color: #EDEDED;
@@ -46,11 +46,19 @@ h1{
   margin: 20px auto;
   width: 250px;
   padding-right: 10px;
-  font-size: 2rem;
   color: #EDEDED;
   text-align: right;
 }
 
+.calc-input{
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+.screen-numbers{
+  font-size: 2rem;
+  margin: 0;
+}
 
 .btn {
   min-width: 50px;
@@ -87,16 +95,25 @@ h1{
   .calculator {
     border-radius: 7.5px;
     width: 420px;
-    height: 525px;
+    height: 551.25px;
   }
 
   .screen {
-    height: 75px;
+    height: 105px;
     border-radius: 7.5px;
     margin: 30px auto;
     width: 375px;
     padding-right: 15px;
+  }
+  
+  .calc-input{
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  
+  .screen-numbers{
     font-size: 3rem;
+    margin: 0;
   }
 
   .btn {
