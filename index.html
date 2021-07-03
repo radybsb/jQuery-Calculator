@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style/style.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/5885fdbdb1.js" crossorigin="anonymous"></script>
+
+  <title>online calculator</title>
+</head>
+<body>
+  <div class="header-div">
+    <h1>Calculator</h1>
+  </div>
+
+  <div class="main-container">
+    <div class="calculator">
+      <div>
+        <input readonly value="0" class="screen">
+      </div>
+    
+      <div class="buttons">
+        <div class="line">
+          <button type="button" class="btn btn-danger" id="c">C</button>
+          <button type="button" class="btn btn-light" id="Backspace">←</button>
+          <button type="button" class="btn btn-light" id="%">%</button>
+          <button type="button" class="btn btn-light" id="/">/</button>
+        </div>
+  
+        <div class="line">
+          <button type="button" class="btn btn-light" id="7">7</button>
+          <button type="button" class="btn btn-light" id="8">8</button>
+          <button type="button" class="btn btn-light" id="9">9</button>
+          <button type="button" class="btn btn-light" id="*">X</button>
+        </div>
+  
+        <div class="line">
+          <button type="button" class="btn btn-light" id="4">4</button>
+          <button type="button" class="btn btn-light" id="5">5</button>
+          <button type="button" class="btn btn-light" id="6">6</button>
+          <button type="button" class="btn btn-light" id="-">-</button>
+        </div>      
+        
+        <div class="line">
+          <button type="button" class="btn btn-light" id="1">1</button>
+          <button type="button" class="btn btn-light" id="2">2</button>
+          <button type="button" class="btn btn-light" id="3">3</button>
+          <button type="button" class="btn btn-light" id="+">+</button>
+        </div>
+  
+        <div class="line">
+          <button type="button" class="btn btn-light" id="+/-">+/-</button>
+          <button type="button" class="btn btn-light" id="0">0</button>
+          <button type="button" class="btn btn-light" id=".">.</button>
+          <button type="button" class="btn btn-success" id="=">=</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="bottom-container">
+      <a class="footer-link" href="https://www.linkedin.com/in/rodrigo-de-oliveira-alves-470432188/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a class="footer-link" href="https://twitter.com/radyalves" target="_blank"><i class="fab fa-twitter-square"></i></a>
+      <a class="footer-link" href="https://github.com/radybsb" target="_blank"><i class="fab fa-github-square"></i></a>
+      <p class="copyright">© 2021 Rodrigo Alves.</p>
+  </div>
+  </footer>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="javascript.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,116 @@
+body{
+  height: 100vh;
+  background-color: #171717;
+  color: #EDEDED;
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  padding: 5% 0;
+  font-weight: 700;
+  font-size: 3rem;
+  margin: 0 auto;
+}
+
+.header-div {
+  height: 20vh;
+  display: flex;
+  align-items: center;
+}
+
+.main-container {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+}
+
+.calculator {
+  background-color: #444444;
+  border-style: solid;
+  border-color: #EDEDED;
+  border-radius: 5px;
+  width: 280px;
+  height: 350px;
+  margin: auto;
+}
+
+.screen {
+  height: 50px;
+  background-color: #1e332a;
+  border-style: solid;
+  border-color: #EDEDED;
+  border-radius: 5px;
+  margin: 20px auto;
+  width: 250px;
+  padding-right: 10px;
+  font-size: 2rem;
+  color: #EDEDED;
+  text-align: right;
+}
+
+
+.btn {
+  min-width: 50px;
+  padding: 6px 12px;
+  margin: 3px;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.bottom-container{
+  height: 20vh;
+  padding-top: 50px;
+}
+
+.footer-link{
+  color: #EDEDED;
+  font-size: 2rem;
+  margin: 3px;
+}
+
+.footer-link:hover {
+  color: #198754;
+}
+
+/* Media Query - responsive code */
+
+/* Above 600x width behavior  */
+
+@media (min-width: 600px){
+  h1{
+    font-size: 4.5rem;
+  }
+
+  .calculator {
+    border-radius: 7.5px;
+    width: 420px;
+    height: 525px;
+  }
+
+  .screen {
+    height: 75px;
+    border-radius: 7.5px;
+    margin: 30px auto;
+    width: 375px;
+    padding-right: 15px;
+    font-size: 3rem;
+  }
+
+  .btn {
+    min-width: 75px;
+    padding: 9px 18px;
+    margin: 4.5px;
+    font-weight: 750;
+    font-size: 1.5rem;
+  }
+
+  .footer-link{
+    color: #EDEDED;
+    font-size: 3rem;
+    margin: 4.5px;
+  }
+
+}
